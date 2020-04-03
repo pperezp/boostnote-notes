@@ -19,6 +19,11 @@
       "key": "44622d40704acb1fe90d",
       "color": "#FF8E00",
       "name": "Maven"
+    },
+    {
+      "key": "dd6e78996a836dbc03a5",
+      "color": "#2BA5F7",
+      "name": "emojis"
     }
   ],
   "version": "1.0"
