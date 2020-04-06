@@ -1,5 +1,5 @@
 createdAt: "2020-03-22T03:06:51.978Z"
-updatedAt: "2020-03-22T04:57:56.819Z"
+updatedAt: "2020-04-05T00:37:25.283Z"
 type: "MARKDOWN_NOTE"
 folder: "4641d9edd7f71dc1dfb4"
 title: "0.- Spring boot"
@@ -93,6 +93,9 @@ content: '''
   # Show SQL values
   logging.level.org.hibernate.type.descriptor.sql=trace
   ```
+  
+  # start.spring.io
+  https://start.spring.io/#!type=maven-project&language=java&platformVersion=2.2.6.RELEASE&packaging=jar&jvmVersion=1.8&groupId=com.example&artifactId=demo&name=demo&description=Demo%20project%20for%20Spring%20Boot&packageName=com.example.demo&dependencies=data-jpa,thymeleaf,web,devtools,mysql,lombok
 '''
 linesHighlighted: []
 isStarred: false
