@@ -1,5 +1,5 @@
 createdAt: "2020-04-01T00:54:41.009Z"
-updatedAt: "2020-04-01T01:24:30.948Z"
+updatedAt: "2020-04-05T05:52:52.381Z"
 type: "MARKDOWN_NOTE"
 folder: "44622d40704acb1fe90d"
 title: "Maven"
@@ -10,8 +10,8 @@ content: '''
   # Crear Proyecto
   mvn -B archetype:generate \\
     -DarchetypeGroupId=org.apache.maven.archetypes \\
-    -DgroupId=com.mycompany.app \\
-    -DartifactId=my-app
+    -DgroupId=cl.prez.emoji \\
+    -DartifactId=json-emoji
     
   # Compilar
   mvn compile
@@ -25,6 +25,43 @@ content: '''
   # Compilar y Ejecutar
   mvn compile package && clear && java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
   ```
+  
+  # Compilar con dependencias
+  ## Java SE
+  
+  ```xml
+  <build>
+      <plugins>
+          <plugin>
+          <artifactId>maven-assembly-plugin</artifactId>
+          <configuration>
+              <archive>
+                  <manifest>
+                      <mainClass>ruta.completa.de.paquetes.hasta.Main</mainClass>
+                  </manifest>
+              </archive>
+              <descriptorRefs>
+                  <descriptorRef>jar-with-dependencies</descriptorRef>
+              </descriptorRefs>
+          </configuration>
+          </plugin>
+      </plugins>
+  </build>
+  ```
+  
+  ## Generar un solo jar con las dependencias
+  ```shell
+  mvn clean compile assembly:single
+  ```
+  
+  ## Set java 8 compiler in maven
+  ```xml
+  <properties>
+      <maven.compiler.target>1.8</maven.compiler.target>
+      <maven.compiler.source>1.8</maven.compiler.source>
+  </properties>
+  ```
+  
 '''
 linesHighlighted: []
 isStarred: false
