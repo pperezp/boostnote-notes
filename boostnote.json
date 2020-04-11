@@ -3,12 +3,12 @@
     {
       "key": "4641d9edd7f71dc1dfb4",
       "color": "#FF8E00",
-      "name": "Spring Boot"
+      "name": "spring-boot"
     },
     {
       "key": "0e31593fed290d9573a9",
       "color": "#E10051",
-      "name": "Notas"
+      "name": "notas"
     },
     {
       "key": "315dde175a853a24823f",
@@ -18,7 +18,7 @@
     {
       "key": "44622d40704acb1fe90d",
       "color": "#FF8E00",
-      "name": "Maven"
+      "name": "maven"
     },
     {
       "key": "dd6e78996a836dbc03a5",
@@ -28,7 +28,7 @@
     {
       "key": "4fec5dc9910d5e0e5f67",
       "color": "#2BA5F7",
-      "name": "Visual Studio"
+      "name": "visual-studio"
     }
   ],
   "version": "1.0"
