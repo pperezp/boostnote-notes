@@ -1,5 +1,5 @@
 createdAt: "2020-04-10T20:16:05.646Z"
-updatedAt: "2020-04-10T20:52:10.869Z"
+updatedAt: "2020-04-10T21:54:02.479Z"
 type: "MARKDOWN_NOTE"
 folder: "4fec5dc9910d5e0e5f67"
 title: "Complementos"
@@ -15,6 +15,9 @@ content: '''
   - Darcula IntelliJ Theme
   - GitLens
   - Maven for Java
+  - Material Icon Theme
+  - Java Extension Pack
+  
   
   ## settings.json
   ```json
