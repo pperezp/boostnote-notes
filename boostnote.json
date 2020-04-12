@@ -29,6 +29,11 @@
       "key": "4fec5dc9910d5e0e5f67",
       "color": "#2BA5F7",
       "name": "visual-studio"
+    },
+    {
+      "key": "b03307558dfbe9194b8d",
+      "color": "#B013A4",
+      "name": "hibernate"
     }
   ],
   "version": "1.0"

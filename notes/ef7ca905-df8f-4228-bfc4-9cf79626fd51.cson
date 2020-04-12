@@ -1,5 +1,5 @@
 createdAt: "2020-04-01T00:54:41.009Z"
-updatedAt: "2020-04-11T00:55:20.975Z"
+updatedAt: "2020-04-11T22:44:05.259Z"
 type: "MARKDOWN_NOTE"
 folder: "44622d40704acb1fe90d"
 title: "Maven"
@@ -24,6 +24,14 @@ content: '''
   
   # Compilar y Ejecutar
   mvn compile package && clear && java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
+  ```
+  
+  ## Set java 8 compiler in maven
+  ```xml
+  <properties>
+      <maven.compiler.target>1.8</maven.compiler.target>
+      <maven.compiler.source>1.8</maven.compiler.source>
+  </properties>
   ```
   
   # Compilar con dependencias
@@ -54,13 +62,7 @@ content: '''
   mvn clean compile assembly:single
   ```
   
-  ## Set java 8 compiler in maven
-  ```xml
-  <properties>
-      <maven.compiler.target>1.8</maven.compiler.target>
-      <maven.compiler.source>1.8</maven.compiler.source>
-  </properties>
-  ```
+  
   
 '''
 linesHighlighted: []
