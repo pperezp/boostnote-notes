@@ -1,5 +1,5 @@
 createdAt: "2020-04-01T00:54:41.009Z"
-updatedAt: "2020-04-11T22:44:05.259Z"
+updatedAt: "2020-05-03T22:04:17.416Z"
 type: "MARKDOWN_NOTE"
 folder: "44622d40704acb1fe90d"
 title: "Maven"
@@ -10,8 +10,8 @@ content: '''
   # Crear Proyecto Java SE  
   mvn -B archetype:generate \\
     -DarchetypeGroupId=org.apache.maven.archetypes \\
-    -DgroupId=cl.prez.emoji \\
-    -DartifactId=json-emoji
+    -DgroupId=cl.prezdev \\
+    -DartifactId=jplay-save
     
   # Compilar
   mvn compile

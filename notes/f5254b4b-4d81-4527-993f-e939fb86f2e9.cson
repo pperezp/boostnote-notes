@@ -1,11 +1,9 @@
 createdAt: "2020-03-22T03:56:39.574Z"
-updatedAt: "2020-03-22T04:57:59.861Z"
+updatedAt: "2020-04-21T14:50:36.249Z"
 type: "MARKDOWN_NOTE"
 folder: "4641d9edd7f71dc1dfb4"
 title: "1.- Ejemplo básico con MySQL"
-tags: [
-  "spring"
-]
+tags: []
 content: '''
   # 1.- Ejemplo básico con MySQL
   
