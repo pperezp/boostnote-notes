@@ -34,6 +34,36 @@
       "key": "b03307558dfbe9194b8d",
       "color": "#B013A4",
       "name": "hibernate"
+    },
+    {
+      "key": "04adcf6afaea189e6967",
+      "color": "#E10051",
+      "name": "unity"
+    },
+    {
+      "key": "0c3b8ccf0c030907f170",
+      "color": "#E10051",
+      "name": "raspberry pi"
+    },
+    {
+      "key": "c44ec23854262138791a",
+      "color": "#30D5C8",
+      "name": "mysql"
+    },
+    {
+      "key": "b08d34eff61408f92f4a",
+      "color": "#E10051",
+      "name": "node"
+    },
+    {
+      "key": "fbaa9cbb70ca252646a7",
+      "color": "#FF8E00",
+      "name": "junit"
+    },
+    {
+      "key": "6b03ffbd293d1e69359d",
+      "color": "#30D5C8",
+      "name": "apps"
     }
   ],
   "version": "1.0"

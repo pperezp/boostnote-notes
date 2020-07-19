@@ -1,5 +1,5 @@
 createdAt: "2020-03-22T05:19:57.864Z"
-updatedAt: "2020-05-07T17:36:12.383Z"
+updatedAt: "2020-07-15T03:36:28.516Z"
 type: "MARKDOWN_NOTE"
 folder: "315dde175a853a24823f"
 title: "GIT"
@@ -46,6 +46,25 @@ content: '''
   
   # Remoto
   git push origin --delete nombreRama
+  ```
+  
+  ### Move
+  [How to move a git repository with history \\| Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/git-move-repository)
+  ```bash
+  git fetch --tags
+  git remote rm origin
+  git remote add origin <url to NEW repo>
+  git push origin --all
+  git push --tags
+  ```
+  
+  ## github
+  ```bash
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git remote add origin https://github.com/pperezp/jprezdevutils.git
+  git push -u origin master
   ```
 '''
 linesHighlighted: []
