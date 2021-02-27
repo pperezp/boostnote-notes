@@ -1,5 +1,5 @@
 createdAt: "2020-06-01T20:49:31.064Z"
-updatedAt: "2020-06-01T20:49:38.400Z"
+updatedAt: "2021-01-23T18:00:14.144Z"
 type: "MARKDOWN_NOTE"
 folder: "4641d9edd7f71dc1dfb4"
 title: "banner.txt"
@@ -8,6 +8,7 @@ content: '''
   # banner.txt
   
   # [ASCII Generator](http://www.network-science.de/ascii/)
+  # [Spring Boot banner.txt generator](https://devops.datenkollektiv.de/banner.txt/index.html) shadow
 '''
 linesHighlighted: []
 isStarred: false

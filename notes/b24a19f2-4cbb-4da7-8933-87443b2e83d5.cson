@@ -1,0 +1,17 @@
+createdAt: "2020-10-28T03:11:08.826Z"
+updatedAt: "2020-10-28T03:11:19.208Z"
+type: "MARKDOWN_NOTE"
+folder: "8e36d7e5391d430efd8d"
+title: "Docker"
+tags: []
+content: '''
+  # Docker
+  ```bash
+  systemctl start docker.service
+  docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
+  mysql -h 127.0.0.1 -P 32768 -u root -p
+  ```
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false
