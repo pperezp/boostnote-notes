@@ -84,6 +84,11 @@
       "key": "2093527d77c6fd599f02",
       "color": "#3FD941",
       "name": "dbeaver"
+    },
+    {
+      "key": "e57036f423814e2e7e38",
+      "color": "#FF8E00",
+      "name": "Pega"
     }
   ],
   "version": "1.0"

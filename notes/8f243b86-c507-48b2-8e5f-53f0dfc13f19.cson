@@ -1,14 +1,17 @@
 createdAt: "2021-02-23T14:14:21.269Z"
-updatedAt: "2021-02-23T14:14:53.952Z"
+updatedAt: "2021-03-16T18:10:40.807Z"
 type: "MARKDOWN_NOTE"
 folder: "2093527d77c6fd599f02"
-title: "/usr/share/dbeaver/dbeaver.ini"
+title: "dbeaver"
 tags: []
 content: '''
-  # /usr/share/dbeaver/dbeaver.ini
-  Añadir -vm 
-  /usr/lib/jvm/java-11-openjdk/bin cuando no abre por jdk
+  # dbeaver
+  
+  ```bash
+  sudo nano /usr/share/dbeaver/dbeaver.ini 
   ```
+  
+  ```bash
   -startup
   plugins/org.eclipse.equinox.launcher_1.6.0.v20200915-1508.jar
   --launcher.library
