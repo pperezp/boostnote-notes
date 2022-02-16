@@ -89,6 +89,21 @@
       "key": "e57036f423814e2e7e38",
       "color": "#FF8E00",
       "name": "Pega"
+    },
+    {
+      "key": "94d91bc25cc612dfef67",
+      "color": "#E10051",
+      "name": "gcp"
+    },
+    {
+      "key": "880b575673e30b32f7ed",
+      "color": "#30D5C8",
+      "name": "linux"
+    },
+    {
+      "key": "5e53e2306d911bad1dd3",
+      "color": "#30D5C8",
+      "name": "javascript"
     }
   ],
   "version": "1.0"

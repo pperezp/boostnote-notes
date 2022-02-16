@@ -1,10 +1,13 @@
 createdAt: "2020-03-22T05:19:57.864Z"
-updatedAt: "2021-04-07T14:23:24.421Z"
+updatedAt: "2021-11-04T04:45:36.017Z"
 type: "MARKDOWN_NOTE"
 folder: "315dde175a853a24823f"
-title: "GIT"
+title: "git token"
 tags: []
 content: '''
+  # git token
+  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
+  
   # GIT
   
   ```bash
@@ -39,6 +42,21 @@ content: '''
   git config --local --add user.email "pperez@awto.cl"
   ```
   
+  ## Crear una rama nueva
+  ```shell
+  git checkout -b nuevafuncionalidad
+  ```
+  
+  ## Cambiarse de rama
+  ```shell
+  git checkout nombreRama
+  ```
+  
+  ## Push a una rama
+  ```shell
+  git push origin nombreDeRama
+  ```
+  
   ### Eliminar una rama
   ```bash
   # Local
@@ -46,6 +64,15 @@ content: '''
   
   # Remoto
   git push origin --delete nombreRama
+  ```
+  
+  ## Renombrar rama actual
+  ```shell
+  # https://www.hostinger.es/tutoriales/renombrar-rama-git
+  git checkout ramaQueQuieroRenombrar
+  git branch -m nuevoNombre
+  git push origin --delete nombre-anterior
+  git push origin -u nombre-nuevo
   ```
   
   ### Move
@@ -73,7 +100,6 @@ content: '''
   ```
   
   ## Eliminar commits
-  [GIT: ELIMINAR UN COMMIT ESPECIFICO - 24hAprendiendo - Medium](https://medium.com/24haprendiendo/git-eliminar-un-commit-especifico-7076a6bf7330)
   ```shell
   git log
   git rebase -i {id del commit anterior al que queremos eliminar}

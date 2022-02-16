@@ -1,5 +1,5 @@
 createdAt: "2020-03-22T03:06:51.978Z"
-updatedAt: "2020-06-19T17:25:09.915Z"
+updatedAt: "2021-06-23T05:29:25.042Z"
 type: "MARKDOWN_NOTE"
 folder: "4641d9edd7f71dc1dfb4"
 title: "0.- Spring boot"
@@ -10,7 +10,6 @@ content: '''
   ## Links
   - https://start.spring.io/
   
-  
   ## ¿Qué dependencias escoger?
   - Spring Boot DevTools
   - Lombok
@@ -18,7 +17,6 @@ content: '''
   - Spring Web
   - Spring Data JPA
   - MySQL Driver
-  
   
   ## pom.xml (Dependencias)
   ```xml
@@ -94,6 +92,9 @@ content: '''
   
   # start.spring.io
   https://start.spring.io/#!type=maven-project&language=java&platformVersion=2.2.6.RELEASE&packaging=jar&jvmVersion=1.8&groupId=com.example&artifactId=demo&name=demo&description=Demo%20project%20for%20Spring%20Boot&packageName=com.example.demo&dependencies=data-jpa,thymeleaf,web,devtools,mysql,lombok
+  
+  # start.spring.io
+  https://start.spring.io/#!type=maven-project&language=java&platformVersion=2.5.1.RELEASE&packaging=jar&jvmVersion=16&groupId=cl.prezdev.book&artifactId=bookdemo&name=Book%20Demo&description=Project%20of%20book%20examples&packageName=cl.prezdev.book&dependencies=devtools,web,thymeleaf,lombok,jersey,data-jpa,mysql
 '''
 linesHighlighted: []
 isStarred: false
